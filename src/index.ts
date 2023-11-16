@@ -4,7 +4,7 @@ import swaggerUi from 'swagger-ui-express';
 import swaggerDocument from './swagger.json';
 
 const app = express();
-const port = 3000;
+const port = 3001; // Updated port number
 
 app.use('/books', bookRoutes);
 
