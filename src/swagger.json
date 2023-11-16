@@ -29,7 +29,8 @@
               }
             }
           }
-        },
+        }
+      },
       "post": {
         "summary": "Add a new book",
         "responses": {
@@ -109,7 +110,12 @@
             "type": "string"
           }
         },
-        "required": ["id", "title", "author", "isbn"]
+        "required": [
+          "id",
+          "title",
+          "author",
+          "isbn"
+        ]
       }
     }
   }
